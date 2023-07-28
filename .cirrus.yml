@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: evolution_${DEVICE}-userdebug
     OUTPUT: e*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!9307771b67b93b458d68c3302aa66582f9574e18ba0f8c6eba8ecf5f2db99ac5f3819eea3eee5c09c71d99a9c6f06054!]
+    CLO_1: ENCRYPTED[!88bcfcad19ca9c5d99b8e8c7ead02b4e011dee3fd32c576959c77763cb1c2a13f7486af3ca46c2cf0b3ab1e103a22dcd!]
     URI: example.com
     ROM_U: 0
     
