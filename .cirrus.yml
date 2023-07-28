@@ -3,7 +3,7 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifest.git
-    TARGET: bacon
+    TARGET: evolution
     LUNCH_COMBO: evolution_${DEVICE}-userdebug
     OUTPUT: e*.zip
     CLO: RMX1901:AppDrive
