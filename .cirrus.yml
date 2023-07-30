@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=1
+    MANIFEST: https://github.com/Evolution-X/manifest.git -b tiramisu --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifest.git
-    TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
-    OUTPUT: O*.zip
-    CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!88bcfcad19ca9c5d99b8e8c7ead02b4e011dee3fd32c576959c77763cb1c2a13f7486af3ca46c2cf0b3ab1e103a22dcd!]
-    URI: example.com
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git
+    TARGET: evolution 
+    LUNCH_COMBO: evolution_${DEVICE}-userdebug
+    OUTPUT: E*.zip
+    CLO: drivex:AppDrive
+    CLO_1: ENCRYPTED[!83ed07c3e92c00f2179cdfa48381e07a0947754482545f2503083bec7dcd9ad520c816053649dc0cb9d1f18e66080a76!]
+    URI: blank
     ROM_U: 0
     
 task:
