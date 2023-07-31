@@ -5,7 +5,7 @@ env:
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git
     TARGET: evolution 
     LUNCH_COMBO: evolution_${DEVICE}-userdebug
-    OUTPUT: E*.zip
+    OUTPUT: e*.zip
     CLO: drivex1:AppDrive
     CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
     URI: https://sourceforge.net/projects/evox1/files/cache/ccache.tar.gz/download
