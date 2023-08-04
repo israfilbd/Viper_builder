@@ -3,7 +3,7 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git
-    TARGET: evolution 
+    TARGET: derp 
     LUNCH_COMBO: derp_${DEVICE}-user
     OUTPUT: D*.zip
     CLO: drivex1:derp
