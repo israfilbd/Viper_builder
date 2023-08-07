@@ -3,7 +3,7 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b cherish 
-    TARGET: cherish
+    TARGET: bacon
     LUNCH_COMBO: cherish_${DEVICE}-userdebug
     OUTPUT: C*.zip
     CLO: drivex1:cherish
