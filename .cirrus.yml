@@ -13,7 +13,7 @@ env:
     
 task:
   name: "build"
-  timeout_in: 12m
+  timeout_in: 130m
   container:
       image: shazuxdd/ubuntu:latest
       cpu: 8
