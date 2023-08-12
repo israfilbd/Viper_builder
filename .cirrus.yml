@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/CherishOS/android_manifest.git -b tiramisu --depth=1
+    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b cherish 
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b superior 
     TARGET: bacon
-    LUNCH_COMBO: cherish_${DEVICE}-userdebug
-    OUTPUT: C*.zip
-    #CLO: drivex1:cherish
+    LUNCH_COMBO: superior_${DEVICE}-userdebug
+    OUTPUT: S*.zip
+    CLO: drivex1:superior
     #CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
-    URI: https://sourceforge.net/projects/evox1/files/Cherish/ccache.tar.gz/download
-    ROM_U: 1
+    URI: #https://sourceforge.net/projects/evox1/files/Superior/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"
