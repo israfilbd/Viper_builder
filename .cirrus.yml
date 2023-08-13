@@ -8,7 +8,7 @@ env:
     OUTPUT: D*.zip
     #CLO: drivex1:derp
     #CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
-    URI: https://sourceforge.net/projects/evox1/files/derp/ccache.tar.gz/download
+    URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
     ROM_U: 1
     
 task:
