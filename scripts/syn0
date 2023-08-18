@@ -6,7 +6,6 @@ git config --global user.name "ij-israfil"
 git config --global user.email "israfilkhan494@gmail.com@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
-git clone https://github.com/ij-israfil/frameworks_base.git -b tiramisu --depth=1
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
 }
 
