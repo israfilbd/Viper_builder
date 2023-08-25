@@ -1,22 +1,22 @@
 env:
-    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen --depth=1
+    MANIFEST: https://github.com/SuperiorExtended/manifest.git -b thirteen --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b superior 
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b supext
     TARGET: bacon
     LUNCH_COMBO: superior_${DEVICE}-userdebug
     OUTPUT: S*.zip
-    CLO: drivex1:superior
-    #CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
-    URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
-    ROM_U: 1
+    CLO: Drive3:Supext
+    CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
+    #URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
+    ROM_U: 0
     
 task:
   name: "build"
-  timeout_in: 130m
+  timeout_in: 120m
   container:
-      #image: apon77/aosp:cirrus
-      image: shazuxdd/ubuntu:latest
+      image: apon77/aosp:cirrus
+      #image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
   Storage-Checker_script:
