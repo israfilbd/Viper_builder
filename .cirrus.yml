@@ -4,8 +4,8 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest_2.git -b havoc
     TARGET: havoc
-    LUNCH_COMBO: havoc_${DEVICE}-userdebug
-    OUTPUT: S*.zip
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
+    OUTPUT: H*.zip
     CLO: Drive1:Havoc
     CLO_1: ENCRYPTED[!b33d388f1f71317e3b672ad18d47c739cca6da411611aa0e6c2bb73bb2ffc0b657653a5a02c5c7b6c47866964fe9dd74!]
     #URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
