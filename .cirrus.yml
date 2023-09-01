@@ -13,11 +13,10 @@ env:
     
 task:
   name: "build"
-  timeout_in: 3h
+  timeout_in: 2h
   container:
-      #image: apon77/aosp:cirrus
+      image: apon77/aosp:cirrus
       #image: shazuxdd/ubuntu:latest
-      image: boyned/selene
       cpu: 8
       memory: 32G
   Storage-Checker_script:
