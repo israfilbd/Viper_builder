@@ -1,7 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 sync() {
-mkdir -p ~/$CIRRUS_WORKING_DIR
-cd ~/$CIRRUS_WORKING_DIR
+set -e
+mkdir -p ~/roms/$rom_name
+cd ~/roms/$rom_name
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
