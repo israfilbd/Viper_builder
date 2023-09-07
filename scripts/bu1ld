@@ -1,6 +1,7 @@
-#!/bin/bash
-cd ~/$CIRRUS_WORKING_DIR
-export CCACHE_DIR=/$CIRRUS_WORKING_DIR/ccache
+#!/usr/bin/env bash
+set -e
+cd ~/roms/$rom_name
+export CCACHE_DIR=~/ccache/$rom_name/$device
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
 ccache -M 100G
