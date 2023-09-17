@@ -1,7 +1,7 @@
 #!/bin/bash
 sync() {
-mkdir -p ~/work
-cd ~/work
+mkdir -p ~/power
+cd ~/power
 git config --global user.name "ij_israfil"
 git config --global user.email "israfilkhan494@gmail.com"
 repo init --depth=1 -u $MANIFEST
