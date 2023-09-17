@@ -23,10 +23,6 @@ task:
       - ./scripts/d0wnl0ad
   Sync_script:
       - ./scripts/syn0
-
-      tsync_script:
-      - ./scripts/tsync
-      
   Build_script:
       - ./scripts/bu1ld
   upload_script:
