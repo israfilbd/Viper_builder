@@ -23,6 +23,7 @@ jobs:
     - name: Commit & Push changes
       uses: actions-js/push@master
       with:
+        branch: "evox"
         github_token: ${{ secrets.GH_TOKEN }}
         author_email: 'ci.twrp@gmail.com'
         author_name: 'RecoveryBuilder'
