@@ -13,7 +13,7 @@ env:
     
 task:
   name: "build"
-  timeout_in: 200m
+  timeout_in: 100m
   container:
       #image: apon77/aosp:cirrus
       image: shazuxdd/ubuntu:latest
