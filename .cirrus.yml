@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git b derp
     TARGET: derp 
     LUNCH_COMBO: derp_${DEVICE}-user
     OUTPUT: D*.zip
