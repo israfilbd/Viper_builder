@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b derp
     TARGET: derp 
-    LUNCH_COMBO: derp_${DEVICE}-user
+    LUNCH_COMBO: derp_${DEVICE}-userdebug
     OUTPUT: D*.zip
     CLO: drivex1:derp
     CLO_1: ENCRYPTED[!a58fc3c6199cc26bd840c8905e8ac41aac52f41609791f60db8cacba7889c523b70ebe2a6639e864f0d34715f0d1e3bc!]
