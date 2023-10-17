@@ -8,7 +8,7 @@ env:
     OUTPUT: e*.zip
     CLO: Drive3:Evox
     CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
-    #URI: https://sourceforge.net/projects/evox1/files/cache/ccache.tar.gz/download
+    URI: ENCRYPTED[!484fc286d14503a186ac824235ae8bd659eeb5f53194b289a8b47f607012a050d9b371b4b97806b02f5c449be903e0d0!]
     ROM_U: 0
     
 task:
