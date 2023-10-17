@@ -17,7 +17,7 @@ task:
   container:
       #image: apon77/aosp:cirrus
       image: shazuxdd/ubuntu:latest
-      cpu: 8
+      cpu: 10
       memory: 40G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
