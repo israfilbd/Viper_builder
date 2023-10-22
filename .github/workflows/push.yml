@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
     - name: Check Out
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3.6.0
     - name: Display Run Parameters
       run: |
         rm trigger.txt
@@ -21,10 +21,11 @@ jobs:
         cat trigger.txt
 
     - name: Commit & Push changes
-      uses: actions-js/push@master
+      uses: actions-js/push@v1.4
       with:
-       branch: "superior"
+        branch: "superior"
         github_token: ${{ secrets.GH_TOKEN }}
-        author_email: 'ci.twrp@gmail.com'
-        author_name: 'RecoveryBuilder'
-        message: 'RecoveryBuilder: Trigger Build'
+        author_email: 'israfilkhan494@gmail.com'
+        author_name: 'Ij-Israfil'
+        message: 'Builder: Trigger Build'
+        
