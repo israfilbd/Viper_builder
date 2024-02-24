@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs --depth=1
+    MANIFEST: https://github.com/RisingTechOSS/android -b fourteen --git-lfs --depth=1
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b rr
-    TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifest.git -b rr
+    TARGET: ascend
+    LUNCH_COMBO: rising_${DEVICE}-user
     OUTPUT: r*.zip
     CLO: Drive3:Rise
-    CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
-    URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
+    #CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
+    #URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
     ROM_U: 0
     
 task:
