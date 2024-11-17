@@ -3,7 +3,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
     TARGET: mka bacon
-    LUNCH_COMBO: lunch lineage_RMX1901-ap3a-user
+    LUNCH_COMBO: lineage_RMX1901-ap3a-user
     OUTPUT: r*.zip
     CLO: Drive3:Rise
     #CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
