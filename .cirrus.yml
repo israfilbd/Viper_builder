@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
     OEM: realme
     LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
-    TARGET: mka bacon
+    TARGET: m evolution
     LUNCH_COMBO: lineage_RMX1901-ap3a-user
     OUTPUT: r*.zip
     CLO: Drive3:Rise
