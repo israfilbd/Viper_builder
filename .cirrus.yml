@@ -1,29 +1,19 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest.git -b udc --depth=1
-    DEVICE: RMX1901
-    OEM: realme
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifest.git -b evox-a14
-    TARGET: evolution 
-    LUNCH_COMBO: evolution_${DEVICE}-userdebug
-    OUTPUT: e*.zip
-    #CLO: Drive3:Evox
-    #CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
-    #URI: ENCRYPTED[!484fc286d14503a186ac824235ae8bd659eeb5f53194b289a8b47f607012a050d9b371b4b97806b02f5c449be903e0d0!]
-    ROM_U: 0
-    
+  token: "ENCRYPTED[!414ff46c26e638f951714c8741af7b51f77812c4eb08d3076a0ed56607437bea241448e1b1657187d71cdd63f9214bee!]"
+
+  chat_id: "ENCRYPTED[!655813cb6986b79acdf80606f20b48274840a8ff388e13c01fd1964ccfb0f6ec22304c635c1d473b00ce3f39939e6874!]"
+
+  GH_TOKEN: "ENCRYPTED[!289e4d330898be91b3aeb2600ffc7d57346c85a5da0fa41132b5541c41c46fae0a50c1e132c744bd52695323c6dae5ee!]"
+
 task:
-  name: "build"
+  name: "viper_builder.."
   timeout_in: 120m
   container:
-      #image: apon77/aosp:cirrus
-      image: shazuxdd/ubuntu:latest
-      cpu: 8
-      memory: 32G
-  Storage-Checker_script:
-      - ./scripts/d0wnl0ad
-  Sync_script:
-      - ./scripts/syn0
+    image: accupara/aosp:ubuntu
+    cpu: 8
+    memory: 32G
+    stateful: true
+    greedy: true
   Build_script:
-      - ./scripts/bu1ld
-  upload_script:
-      - ./scripts/upl0ad
+
+curl -s https://raw.githubusercontent.com/israfilbd/scripts/main/evox-vic.sh | bash
