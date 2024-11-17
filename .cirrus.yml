@@ -1,18 +1,15 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
-    OEM: realme
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
-    TARGET: m evolution
-    LUNCH_COMBO: lineage_RMX1901-ap3a-user
-    OUTPUT: r*.zip
-    CLO: Drive3:Rise
+    MANIFEST: https://github.com/AfterlifeOS/android_manifest.git -b 14 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifests.git -b afterlife
+    LUNCH_COMBO: afterlife_RMX1901-ap2a-user
+    TARGET: m afterlife
     #CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
     #URI: ENCRYPTED[!06f4356e9e444a21a840b98089cb5fbb19dd373ef91f4fdd1aecf2de8b5bb09a7d29fadfcaa8f0af5173737f8c28b59a!]
     ROM_U: 0
     
 task:
   name: "build"
-  timeout_in: 2h
+  timeout_in: 30m
   container:
       #image: apon77/aosp:cirrus
       image: shazuxdd/ubuntu:latest
@@ -24,5 +21,3 @@ task:
       - ./scripts/syn0
   Build_script:
       - ./scripts/bu1ld
-  upload_script:
-      - ./scripts/upl0ad
