@@ -6,6 +6,6 @@ export USE_CCACHE=1
 ccache -M 100G
 ccache -o compression=true
 ccache -z
-. build/envsetup.sh && opt_patch
+. build/envsetup.sh
 lunch "$LUNCH_COMBO"
-$TARGET & sleep 50m
+$TARGET
