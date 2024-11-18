@@ -1,6 +1,6 @@
 env:
     MANIFEST: https://github.com/AfterlifeOS/android_manifest.git -b 14 --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/ij-israfil/local_manifests.git -b afterlife
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b afterlife
     LUNCH_COMBO: afterlife_RMX1901-ap2a-user
     TARGET: m afterlife
     #CLO_1: ENCRYPTED[!584b549b7e1c7497c082e4d6e651f4b0008588b42560261fb5f9403d605095512d3ca0791166992f4a3bc13a3a71cd38!]
