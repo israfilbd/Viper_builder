@@ -7,5 +7,4 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lunch "$LUNCH_COMBO"
-$TARGET
+goafterlife RMX1901 ap2a-user
